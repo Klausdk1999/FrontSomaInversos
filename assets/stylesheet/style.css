@@ -32,8 +32,12 @@ body {
   margin-right: 20vw;
   font-size: 22px;
   color: #ffffff;
+  display:flex;
+  align-items:center;
 }
-
+.row{
+  display:flex;
+}
 header,
 footer {
   width: 100vw;
