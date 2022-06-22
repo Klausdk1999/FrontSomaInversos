@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soma dos Inversos</title>
+  <link href="assets/stylesheet/reset.css" rel="stylesheet">
+  <link href="assets/stylesheet/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="menu-fundo fundo-escondido" onclick="toggleParticipantes()"></div>
+  
+  
+  <img src="assets/imagens/logo.png" class="logo">
+
+  <h1>Digite 2 números para somar seus inveros</h1>
+  <h2>Klaus e Bruno - Disciplina Integração de Sistemas para Automação</h2>
+  <main>
+    <div class="entrada-mensagem inputs">
+      <input placeholder="Escreva aqui o primeiro numero" class="input-number1"></input>
+    </div>
+    <div class="entrada-mensagem inputs">
+      <input placeholder="Escreva aqui o segundo numero" class="input-number2"></input>
+    </div>
+    <button class ="button" onclick="enviarMensagem()">
+      <ion-icon class ="button" name="paper-plane-outline"></ion-icon>
+    </button>
+    <button class ="button red" onclick="getStatus()">
+      <h1>STATUS</h1>
+    </button>
+  </main>
+
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>
