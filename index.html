@@ -10,8 +10,6 @@
 </head>
 
 <body>
-  <div class="menu-fundo fundo-escondido" onclick="toggleParticipantes()"></div>
-  
   
   <img src="assets/imagens/logo.png" class="logo">
   
@@ -26,12 +24,14 @@
     <div class="entrada-mensagem inputs">
       <input placeholder="Escreva aqui o segundo numero" class="input-number2"></input>
     </div>
-    <button class ="button" onclick="enviarMensagem()">
-      <ion-icon class ="button" name="paper-plane-outline"></ion-icon>
-    </button>
-    <button class ="button red" onclick="getStatus()">
-      <h1>STATUS</h1>
-    </button>
+    <div>
+      <button class ="button" onclick="enviarMensagem()">
+        <ion-icon class ="button" name="paper-plane-outline"></ion-icon>
+      </button>
+      <button class ="button red" onclick="getStatus()">
+        <h1>Server STATUS</h1>
+      </button>
+    </div>
   </main>
 
   <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
